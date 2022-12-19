@@ -1,0 +1,74 @@
+{
+	"shot": {
+		"assetId": "ShotWeaponEntity",
+		"type": "shot",
+		"frameSpriteAssetId": "shot",
+		"isRotate": true,
+		"name": "骨",
+		"speed": 80,
+		"describe": "前方に向かって骨を発射します"
+	},
+	"fire": {
+		"assetId": "FireWeaponEntity",
+		"type": "fire",
+		"frameSpriteAssetId": "effect_fire",
+		"isRotate": false,
+		"name": "火炎",
+		"speed": 50,
+		"describe": "左右に向かって火炎を発射します"
+	},
+	"cold": {
+		"assetId": "ColdWeaponEntity",
+		"type": "cold",
+		"frameSpriteAssetId": "effect_cold",
+		"isRotate": true,
+		"name": "冷気",
+		"speed": 70,
+		"describe": "周囲に氷のバリアを張ります"
+	},
+	"thunder": {
+		"assetId": "ThunderWeaponEntity",
+		"type": "thunder",
+		"frameSpriteAssetId": "effect_thunder",
+		"isRotate": false,
+		"name": "天雷",
+		"speed": 100,
+		"describe": "天空より雷を呼びます"
+	},
+	"space": {
+		"assetId": "SpaceWeaponEntity",
+		"type": "space",
+		"frameSpriteAssetId": "effect_space",
+		"isRotate": false,
+		"name": "宇宙の手",
+		"speed": 40,
+		"describe": "宇宙から救いの手が差し出されます"
+	},
+	"inhale": {
+		"assetId": "InhaleWeaponEntity",
+		"type": "space",
+		"frameSpriteAssetId": "",
+		"isRotate": false,
+		"name": "吸い込み",
+		"speed": 40,
+		"describe": "周りのものを吸い込みます"
+	},
+	"beam": {
+		"assetId": "BeamWeaponEntity",
+		"type": "beam",
+		"frameSpriteAssetId": "effect_beam",
+		"isRotate": false,
+		"name": "ビーム",
+		"speed": 40,
+		"describe": "熱と光が敵を包みます"
+	},
+	"sword": {
+		"assetId": "SwordWeaponEntity",
+		"type": "sword",
+		"frameSpriteAssetId": "effect_sword",
+		"isRotate": false,
+		"name": "ルルア・ウィグイ",
+		"speed": 10,
+		"describe": "ヒメの剣を叩き込みます"
+	}
+}

@@ -1,0 +1,1040 @@
+{
+	"stage1_single": {
+		"scriptAssetId": "FieldEntity",
+		"timeLimit": 200,
+		"startPosition": {
+			"x": 1256,
+			"y": 1576
+		},
+		"emenies": [
+			{
+				"id": "enemyFighter",
+				"time": 10,
+				"relativeOffset": { "x": -300, "y": 0 },
+				"count": 1
+			},
+			{
+				"id": "enemyFighter",
+				"time": 100,
+				"relativeOffset": { "x": 400, "y": 0 },
+				"count": 1
+			},
+			{
+				"id": "enemyFighter",
+				"time": 150,
+				"relativeOffset": { "x": -400, "y": 0 },
+				"count": 2
+			},
+			{
+				"id": "enemyFighter",
+				"time": 200,
+				"relativeOffset": { "x": 0, "y": 350 },
+				"count": 3
+			},
+			{
+				"id": "enemyFighter",
+				"time": 250,
+				"relativeOffset": { "x": 0, "y": -350 },
+				"count": 3
+			},
+			{
+				"id": "enemyFighter",
+				"time": 350,
+				"relativeOffset": { "x": -400, "y": 200 },
+				"count": 5
+			},
+			{
+				"id": "enemyFighter",
+				"time": 450,
+				"relativeOffset": { "x": 300, "y": -300 },
+				"count": 5
+			},
+			{
+				"id": "enemyBee",
+				"time": 900,
+				"relativeOffset": { "x": -300, "y": -200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 900,
+				"relativeOffset": { "x": 300, "y": 200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 900,
+				"relativeOffset": { "x": 300, "y": -200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 900,
+				"relativeOffset": { "x": -300, "y": 200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 1100,
+				"relativeOffset": { "x": -300, "y": -200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 1100,
+				"relativeOffset": { "x": 300, "y": 200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 1100,
+				"relativeOffset": { "x": 300, "y": -200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 1100,
+				"relativeOffset": { "x": -300, "y": 200 },
+				"count": 4
+			},
+			{
+				"id": "enemyDog",
+				"time": 1300,
+				"relativeOffset": { "x": -120, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1300,
+				"relativeOffset": { "x": -60, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1400,
+				"relativeOffset": { "x": 60, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1400,
+				"relativeOffset": { "x": 120, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "bossDog",
+				"time": 1500,
+				"relativeOffset": { "x": 0, "y": -300 },
+				"count": 1
+			},
+			{
+				"id": "enemyDog",
+				"time": 1700,
+				"relativeOffset": { "x": 240, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1700,
+				"relativeOffset": { "x": -240, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1900,
+				"relativeOffset": { "x": 320, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1900,
+				"relativeOffset": { "x": -320, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 2100,
+				"relativeOffset": { "x": 300, "y": 0 },
+				"count": 20
+			},
+			{
+				"id": "enemyDog",
+				"time": 2100,
+				"relativeOffset": { "x": -300, "y": 0 },
+				"count": 20
+			},
+			{
+				"id": "enemyBee",
+				"time": 2300,
+				"relativeOffset": { "x": 0, "y": 200 },
+				"count": 20
+			},
+			{
+				"id": "enemyBee",
+				"time": 2300,
+				"relativeOffset": { "x": 0, "y": -200 },
+				"count": 20
+			},
+			{
+				"id": "enemyBee",
+				"time": 2500,
+				"relativeOffset": { "x": 200, "y": 200 },
+				"count": 20
+			},
+			{
+				"id": "enemyBee",
+				"time": 2500,
+				"relativeOffset": { "x": -200, "y": -200 },
+				"count": 20
+			},
+			{
+				"id": "bossDog",
+				"time": 2800,
+				"relativeOffset": { "x": 0, "y": -300 },
+				"count": 2
+			},
+			{
+				"id": "enemyWitch",
+				"time": 2800,
+				"relativeOffset": { "x": 240, "y": 300 },
+				"count": 20
+			},
+			{
+				"id": "enemyDog",
+				"time": 2800,
+				"relativeOffset": { "x": -240, "y": 300 },
+				"count": 20
+			},
+			{
+				"id": "enemyWitch",
+				"time": 2900,
+				"relativeOffset": { "x": 240, "y": -300 },
+				"count": 20
+			},
+			{
+				"id": "enemyDog",
+				"time": 2900,
+				"relativeOffset": { "x": -240, "y": -300 },
+				"count": 20
+			},
+			{
+				"id": "bossDog",
+				"time": 3000,
+				"relativeOffset": { "x": 0, "y": 300 },
+				"count": 2
+			},
+			{
+				"id": "enemyWitch",
+				"time": 3300,
+				"relativeOffset": { "x": 240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "enemyWitch",
+				"time": 3310,
+				"relativeOffset": { "x": 240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "enemyWitch",
+				"time": 3320,
+				"relativeOffset": { "x": -240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "enemyWitch",
+				"time": 3330,
+				"relativeOffset": { "x": -240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "bossDog",
+				"time": 3600,
+				"relativeOffset": { "x": 0, "y": 300 },
+				"count": 2
+			},
+			{
+				"id": "enemyWitch",
+				"time": 3900,
+				"relativeOffset": { "x": 240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "enemyWitch",
+				"time": 3910,
+				"relativeOffset": { "x": 240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "enemyWitch",
+				"time": 3920,
+				"relativeOffset": { "x": -240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "enemyWitch",
+				"time": 3930,
+				"relativeOffset": { "x": -240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "bossDog2",
+				"time": 4200,
+				"relativeOffset": { "x": 0, "y": -300 },
+				"count": 2
+			},
+			{
+				"id": "enemyFighter2",
+				"time": 4500,
+				"relativeOffset": { "x": 240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "enemyFighter2",
+				"time": 4510,
+				"relativeOffset": { "x": 240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "enemyFighter2",
+				"time": 4520,
+				"relativeOffset": { "x": -240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "enemyFighter2",
+				"time": 4530,
+				"relativeOffset": { "x": -240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "bossDog2",
+				"time": 4600,
+				"relativeOffset": { "x": 0, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "bossDog2",
+				"time": 4610,
+				"relativeOffset": { "x": 240, "y": 300 },
+				"count": 10
+			},
+			{
+				"id": "bossDog2",
+				"time": 4800,
+				"relativeOffset": { "x": 240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "bossDog2",
+				"time": 4810,
+				"relativeOffset": { "x": 240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "bossDog2",
+				"time": 4820,
+				"relativeOffset": { "x": -240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "bossDog2",
+				"time": 4830,
+				"relativeOffset": { "x": -240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5000,
+				"relativeOffset": { "x": 0, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5000,
+				"relativeOffset": { "x": 0, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5000,
+				"relativeOffset": { "x": 320, "y": 0 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5000,
+				"relativeOffset": { "x": -320, "y": 0 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5000,
+				"relativeOffset": { "x": -320, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5000,
+				"relativeOffset": { "x": 320, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5000,
+				"relativeOffset": { "x": -320, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5000,
+				"relativeOffset": { "x": 320, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5200,
+				"relativeOffset": { "x": 0, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5200,
+				"relativeOffset": { "x": 0, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5200,
+				"relativeOffset": { "x": 320, "y": 0 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5200,
+				"relativeOffset": { "x": -320, "y": 0 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5200,
+				"relativeOffset": { "x": -320, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5200,
+				"relativeOffset": { "x": 320, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5200,
+				"relativeOffset": { "x": -320, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5200,
+				"relativeOffset": { "x": 320, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5400,
+				"relativeOffset": { "x": 0, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5400,
+				"relativeOffset": { "x": 0, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5400,
+				"relativeOffset": { "x": 320, "y": 0 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5400,
+				"relativeOffset": { "x": -320, "y": 0 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5400,
+				"relativeOffset": { "x": -320, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5400,
+				"relativeOffset": { "x": 320, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5400,
+				"relativeOffset": { "x": -320, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 5400,
+				"relativeOffset": { "x": 320, "y": -240 },
+				"count": 5
+			}
+		],
+		"items": [],
+		"events": [
+			{
+				"id": "opening",
+				"time": 0
+			},
+			{
+				"id": "fallingFollower",
+				"time": 600
+			},
+			{
+				"id": "simplifyFallingFollower",
+				"time": 1200
+			},
+			{
+				"id": "simplifyFallingFollower",
+				"time": 1800
+			},
+			{
+				"id": "simplifyFallingFollower",
+				"time": 3000
+			},
+			{
+				"id": "simplifyFallingFollower",
+				"time": 4000
+			},
+			{
+				"id": "majyo",
+				"time": 5000
+			}
+		]
+	},
+	"stage1_ranking": {
+		"scriptAssetId": "FieldEntity",
+		"timeLimit": 180,
+		"startPosition": {
+			"x": 1256,
+			"y": 1576
+		},
+		"emenies": [
+			{
+				"id": "enemyFighter",
+				"time": 10,
+				"relativeOffset": { "x": -300, "y": 0 },
+				"count": 1
+			},
+			{
+				"id": "enemyFighter",
+				"time": 50,
+				"relativeOffset": { "x": 400, "y": 0 },
+				"count": 1
+			},
+			{
+				"id": "enemyFighter",
+				"time": 100,
+				"relativeOffset": { "x": -400, "y": 0 },
+				"count": 2
+			},
+			{
+				"id": "enemyFighter",
+				"time": 200,
+				"relativeOffset": { "x": 0, "y": 350 },
+				"count": 3
+			},
+			{
+				"id": "enemyFighter",
+				"time": 250,
+				"relativeOffset": { "x": 0, "y": -350 },
+				"count": 3
+			},
+			{
+				"id": "enemyFighter",
+				"time": 350,
+				"relativeOffset": { "x": -400, "y": 200 },
+				"count": 5
+			},
+			{
+				"id": "enemyFighter",
+				"time": 450,
+				"relativeOffset": { "x": 300, "y": -300 },
+				"count": 5
+			},
+			{
+				"id": "enemyBee",
+				"time": 700,
+				"relativeOffset": { "x": -300, "y": -200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 800,
+				"relativeOffset": { "x": 300, "y": 200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 900,
+				"relativeOffset": { "x": 300, "y": -200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 900,
+				"relativeOffset": { "x": -300, "y": 200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 1000,
+				"relativeOffset": { "x": -300, "y": -200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 1000,
+				"relativeOffset": { "x": 300, "y": 200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 1000,
+				"relativeOffset": { "x": 300, "y": -200 },
+				"count": 4
+			},
+			{
+				"id": "enemyBee",
+				"time": 1000,
+				"relativeOffset": { "x": -300, "y": 200 },
+				"count": 4
+			},
+			{
+				"id": "enemyDog",
+				"time": 1100,
+				"relativeOffset": { "x": -120, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1100,
+				"relativeOffset": { "x": -60, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1250,
+				"relativeOffset": { "x": 60, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1250,
+				"relativeOffset": { "x": 120, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "bossDog",
+				"time": 1300,
+				"relativeOffset": { "x": 0, "y": -300 },
+				"count": 1
+			},
+			{
+				"id": "enemyDog",
+				"time": 1300,
+				"relativeOffset": { "x": 240, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1400,
+				"relativeOffset": { "x": -240, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1500,
+				"relativeOffset": { "x": 320, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1600,
+				"relativeOffset": { "x": -320, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "enemyDog",
+				"time": 1700,
+				"relativeOffset": { "x": 300, "y": 0 },
+				"count": 20
+			},
+			{
+				"id": "enemyDog",
+				"time": 1850,
+				"relativeOffset": { "x": -300, "y": 0 },
+				"count": 20
+			},
+			{
+				"id": "enemyBee",
+				"time": 1900,
+				"relativeOffset": { "x": 0, "y": 200 },
+				"count": 20
+			},
+			{
+				"id": "enemyBee",
+				"time": 1900,
+				"relativeOffset": { "x": 0, "y": -200 },
+				"count": 20
+			},
+			{
+				"id": "enemyBee",
+				"time": 1900,
+				"relativeOffset": { "x": 200, "y": 200 },
+				"count": 20
+			},
+			{
+				"id": "enemyBee",
+				"time": 1900,
+				"relativeOffset": { "x": -200, "y": -200 },
+				"count": 20
+			},
+			{
+				"id": "bossDog",
+				"time": 2100,
+				"relativeOffset": { "x": 0, "y": -300 },
+				"count": 2
+			},
+			{
+				"id": "enemyWitch",
+				"time": 2100,
+				"relativeOffset": { "x": 240, "y": 300 },
+				"count": 20
+			},
+			{
+				"id": "enemyDog",
+				"time": 2100,
+				"relativeOffset": { "x": -240, "y": 300 },
+				"count": 20
+			},
+			{
+				"id": "enemyWitch",
+				"time": 2100,
+				"relativeOffset": { "x": 240, "y": -300 },
+				"count": 20
+			},
+			{
+				"id": "enemyDog",
+				"time": 2300,
+				"relativeOffset": { "x": -240, "y": -300 },
+				"count": 20
+			},
+			{
+				"id": "bossDog",
+				"time": 2300,
+				"relativeOffset": { "x": 0, "y": 300 },
+				"count": 2
+			},
+			{
+				"id": "enemyWitch",
+				"time": 2300,
+				"relativeOffset": { "x": 240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "enemyWitch",
+				"time": 2410,
+				"relativeOffset": { "x": 240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "enemyWitch",
+				"time": 2420,
+				"relativeOffset": { "x": -240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "enemyWitch",
+				"time": 2430,
+				"relativeOffset": { "x": -240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "bossDog",
+				"time": 2500,
+				"relativeOffset": { "x": 0, "y": 300 },
+				"count": 2
+			},
+			{
+				"id": "enemyWitch",
+				"time": 2600,
+				"relativeOffset": { "x": 240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "enemyWitch",
+				"time": 2710,
+				"relativeOffset": { "x": 240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "enemyWitch",
+				"time": 2720,
+				"relativeOffset": { "x": -240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "enemyWitch",
+				"time": 2730,
+				"relativeOffset": { "x": -240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "bossDog2",
+				"time": 2900,
+				"relativeOffset": { "x": 0, "y": -300 },
+				"count": 2
+			},
+			{
+				"id": "enemyFighter2",
+				"time": 3100,
+				"relativeOffset": { "x": 240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "enemyFighter2",
+				"time": 3110,
+				"relativeOffset": { "x": 240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "enemyFighter2",
+				"time": 3120,
+				"relativeOffset": { "x": -240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "enemyFighter2",
+				"time": 3130,
+				"relativeOffset": { "x": -240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "bossDog2",
+				"time": 3300,
+				"relativeOffset": { "x": 0, "y": -300 },
+				"count": 10
+			},
+			{
+				"id": "bossDog2",
+				"time": 3310,
+				"relativeOffset": { "x": 240, "y": 300 },
+				"count": 10
+			},
+			{
+				"id": "bossDog2",
+				"time": 3500,
+				"relativeOffset": { "x": 240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "bossDog2",
+				"time": 3510,
+				"relativeOffset": { "x": 240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "bossDog2",
+				"time": 3520,
+				"relativeOffset": { "x": -240, "y": -300 },
+				"count": 30
+			},
+			{
+				"id": "bossDog2",
+				"time": 3530,
+				"relativeOffset": { "x": -240, "y": 300 },
+				"count": 30
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3700,
+				"relativeOffset": { "x": 0, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3700,
+				"relativeOffset": { "x": 0, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3700,
+				"relativeOffset": { "x": 320, "y": 0 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3700,
+				"relativeOffset": { "x": -320, "y": 0 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3700,
+				"relativeOffset": { "x": -320, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3700,
+				"relativeOffset": { "x": 320, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3700,
+				"relativeOffset": { "x": -320, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3700,
+				"relativeOffset": { "x": 320, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3900,
+				"relativeOffset": { "x": 0, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3900,
+				"relativeOffset": { "x": 0, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3900,
+				"relativeOffset": { "x": 320, "y": 0 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3900,
+				"relativeOffset": { "x": -320, "y": 0 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3900,
+				"relativeOffset": { "x": -320, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3900,
+				"relativeOffset": { "x": 320, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3900,
+				"relativeOffset": { "x": -320, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 3900,
+				"relativeOffset": { "x": 320, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 4000,
+				"relativeOffset": { "x": 0, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 4000,
+				"relativeOffset": { "x": 0, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 4000,
+				"relativeOffset": { "x": 320, "y": 0 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 4000,
+				"relativeOffset": { "x": -320, "y": 0 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 4000,
+				"relativeOffset": { "x": -320, "y": -240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 4000,
+				"relativeOffset": { "x": 320, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 4000,
+				"relativeOffset": { "x": -320, "y": 240 },
+				"count": 5
+			},
+			{
+				"id": "bossMajyo",
+				"time": 4000,
+				"relativeOffset": { "x": 320, "y": -240 },
+				"count": 5
+			}
+		],
+		"items": [],
+		"events": [
+			{
+				"id": "opening",
+				"time": 0
+			},
+			{
+				"id": "fallingFollower",
+				"time": 600
+			},
+			{
+				"id": "simplifyFallingFollower",
+				"time": 1200
+			},
+			{
+				"id": "simplifyFallingFollower",
+				"time": 1800
+			},
+			{
+				"id": "simplifyFallingFollower",
+				"time": 3000
+			},
+			{
+				"id": "majyo",
+				"time": 4000
+			}
+		]
+	}
+}

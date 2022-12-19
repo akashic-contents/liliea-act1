@@ -1,0 +1,12 @@
+node_modules
+/script
+coverage
+
+*.swp
+*.swo
+*.un~
+*.*~
+
+.DS_Store
+
+.eslintcache

@@ -1,0 +1,157 @@
+{
+	"scoreup1": {
+		"type": "score",
+		"assetId": "scoreup1",
+		"name": "スコアアップ+10",
+		"describe": "スコアが10増えます",
+		"score": 10
+	},
+	"scoreup2": {
+		"type": "score",
+		"assetId": "scoreup2",
+		"name": "スコアアップ+50",
+		"describe": "スコアが50増えます",
+		"score": 50
+	},
+	"scoreup3": {
+		"type": "score",
+		"assetId": "scoreup3",
+		"name": "スコアアップ+250",
+		"describe": "スコアが250増えます",
+		"score": 250
+	},
+	"scoreup4": {
+		"type": "score",
+		"assetId": "scoreup4",
+		"name": "スコアアップ+1000",
+		"describe": "スコアが1000増えます",
+		"score": 1000
+	},
+	"speedup": {
+		"type": "powerup",
+		"assetId": "recovery1",
+		"name": "スピードアップ！！",
+		"describe": "デバッグむけ",
+		"spriteType": "frameSprite",
+		"attack": 0,
+		"defence": 0,
+		"speed": 100,
+		"critical": 0,
+		"expType": "fire",
+		"expValue": 0
+	},
+	"recovery1": {
+		"type": "recovery",
+		"assetId": "recovery1",
+		"name": "骨付き肉",
+		"describe": "肉を食らい傷を治します",
+		"recoveryType": "ratio",
+		"recoveryValue": 1,
+		"spriteType": "frameSprite"
+	},
+	"shotup": {
+		"type": "weapon",
+		"assetId": "shotup",
+		"name": "ボーン",
+		"describe": "前方に向かってボーンを発射します",
+		"weaponId": "shot",
+		"spriteType": "frameSprite"
+	},
+	"powerUpFire": {
+		"type": "powerup",
+		"assetId": "item_fire",
+		"name": "ほのおだま",
+		"describe": "燃えます！！！",
+		"spriteType": "frameSprite",
+		"attack": 0.1,
+		"defence": 0,
+		"speed": 0,
+		"critical": 0.01,
+		"expType": "fire",
+		"expValue": 1
+	},
+	"powerUpCold": {
+		"type": "powerup",
+		"assetId": "item_cold",
+		"name": "こおりだま",
+		"describe": "凍えます！！！",
+		"spriteType": "frameSprite",
+		"attack": 0.05,
+		"defence": 0.1,
+		"speed": 0,
+		"critical": 0,
+		"expType": "cold",
+		"expValue": 1
+	},
+	"powerUpThunder": {
+		"type": "powerup",
+		"assetId": "item_thunder",
+		"name": "かみなりだま",
+		"describe": "痺れます！！！",
+		"spriteType": "frameSprite",
+		"attack": 0.01,
+		"defence": 0,
+		"speed": 0.05,
+		"critical": 0.005,
+		"expType": "thunder",
+		"expValue": 1
+	},
+	"powerUpSpace": {
+		"type": "powerup",
+		"assetId": "item_space",
+		"name": "うちゅうだま",
+		"describe": "窓に！窓に！！",
+		"spriteType": "frameSprite",
+		"attack": 0.025,
+		"defence": 0.025,
+		"speed": 0.025,
+		"critical": 0.01,
+		"expType": "space",
+		"expValue": 1
+	},
+	"powerUpBeam": {
+		"type": "powerup",
+		"assetId": "item_space",
+		"name": "せんこうだま",
+		"describe": "くらえ！！！",
+		"spriteType": "frameSprite",
+		"attack": 0.01,
+		"defence": 0,
+		"speed": 0.05,
+		"critical": 0.005,
+		"expType": "beam",
+		"expValue": 1
+	},
+	"followerFire": {
+		"type": "follower",
+		"characterId": "fireDog",
+		"assetId": "item_follower_fire",
+		"name": "モエル",
+		"spriteType": "frameSprite",
+		"describe": "あつくもえるモエル"
+	},
+	"followerCold": {
+		"type": "follower",
+		"characterId": "coldDog",
+		"assetId": "item_follower_cold",
+		"name": "サムサム",
+		"spriteType": "frameSprite",
+		"describe": "さむがりやのサムサム"
+	},
+	"followerThunder": {
+		"type": "follower",
+		"characterId": "shiningDog",
+		"assetId": "item_follower_thunder",
+		"name": "ビリー",
+		"spriteType": "frameSprite",
+		"describe": "びりびりしびれるビリー"
+	},
+	"followerSpace": {
+		"type": "follower",
+		"characterId": "spaceDog",
+		"assetId": "item_follower_space",
+		"name": "スペーシア",
+		"spriteType": "frameSprite",
+		"describe": "そんざいがふあんていなスペーシア"
+	}
+}

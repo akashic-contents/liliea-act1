@@ -1,0 +1,72 @@
+Type,Filename,LICENSE,Author,作成方法
+image,bg_result_majyo.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,bg_result.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,bg1.png,GPLv3,"DWANGO Co., Ltd.",GIMP デフォルトパターンなど使用
+image,bg2.png,GPLv3,"DWANGO Co., Ltd.",GIMP デフォルトパターンなど使用
+image,bg3.png,GPLv3,"DWANGO Co., Ltd.",GIMP デフォルトパターンなど使用
+image,bomb1.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html)
+image,bomb2.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html)
+image,boss1.png,CC BY 2.1 JP,株式会社東雲火山,[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets) + ペイントツールで改変
+image,boss2.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html) + [shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets) + 改変
+image,boss2e.png,GPLv3,"DWANGO Co., Ltd.",GIMP デフォルトパターン使用
+image,character1.png,CC BY 2.1 JP,株式会社東雲火山,[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets)
+image,character10.png,CC BY 2.1 JP,株式会社東雲火山,[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets)
+image,character11.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html) + ペイントツールで改変
+image,character12.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html) + ペイントツールで改変
+image,character13.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html) + ペイントツールで改変
+image,character2.png,CC BY 2.1 JP,株式会社東雲火山,[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets)
+image,character3.png,CC BY 2.1 JP,株式会社東雲火山,[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets)
+image,character4.png,CC BY 2.1 JP,株式会社東雲火山,[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets)
+image,character5.png,CC BY 2.1 JP,株式会社東雲火山,[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets)
+image,character6.png,CC BY 2.1 JP,株式会社東雲火山,[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets)
+image,character7.png,CC BY 2.1 JP,株式会社東雲火山,[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets)
+image,character8.png,CC BY 2.1 JP,株式会社東雲火山,[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets)
+image,character9.png,CC BY 2.1 JP,株式会社東雲火山,[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets)
+image,d_01.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html)
+image,d_02.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html)
+image,effect_beam.png,CC0,Effekseer,Effekseer サンプル
+image,effect_cold.png,GPLv3,"DWANGO Co., Ltd.",GIMP デフォルトパターンなど使用
+image,effect_fancy.png,CC0,Effekseer,Effekseer サンプル
+image,effect_fire.png,CC0,Effekseer,Effekseer サンプル
+image,effect_space.png,CC0,Effekseer,Effekseer サンプル
+image,effect_sword.png,CC0,Effekseer,Effekseer サンプル
+image,effect_thunder.png,CC0,Effekseer,Effekseer サンプル
+image,emotions.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,face_hime.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,face_liliea.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,face_majyo.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,field1a.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",TIled で作成
+image,field1b.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",TIled で作成
+image,field1c.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",TIled で作成
+image,field2a.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",TIled で作成
+image,field2b.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",TIled で作成
+image,field2c.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",TIled で作成
+image,hint.png,SIL Open Font License (OFL) Version 1.1,"DWANGO Co., Ltd.",GIMP + フォント Ricty Diminished
+image,item_cold.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,item_fire.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,item_follower_cold.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,item_follower_fire.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,item_follower_space.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,item_follower_thunder.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,item_space.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,item_thunder.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,levelup.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",GIMP で手書き
+image,recovery1.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,result_label_exp.png,SIL Open Font License (OFL) Version 1.1,"DWANGO Co., Ltd.",GIMP + フォント Ricty Diminished
+image,result_label_followers.png,SIL Open Font License (OFL) Version 1.1,"DWANGO Co., Ltd.",GIMP + フォント Ricty Diminished
+image,result_label_nodamage.png,SIL Open Font License (OFL) Version 1.1,"DWANGO Co., Ltd.",GIMP + フォント Ricty Diminished
+image,scoreup1.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html)
+image,scoreup2.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html)
+image,scoreup3.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html)
+image,scoreup4.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html)
+image,shadow_character.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,shot.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,shotup.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,skip.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,star.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",ペイントツールで手書き
+image,tile1.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[Akashic Engine サンプルデモの素材](https://akashic-games.github.io/asset/material.html) + 改変
+image,ui_common.png,CC BY 2.1 JP,"DWANGO Co., Ltd.",[泥棒バスター](https://github.com/akashic-contents/thiefBuster)
+audio,se_damage.aac,CC BY 2.1 JP,"DWANGO Co., Ltd.",[泥棒バスター](https://github.com/akashic-contents/thiefBuster)
+audio,se_damage.ogg,CC BY 2.1 JP,"DWANGO Co., Ltd.",[泥棒バスター](https://github.com/akashic-contents/thiefBuster)
+audio,se_item.aac,CC BY 2.1 JP,"DWANGO Co., Ltd.",[泥棒バスター](https://github.com/akashic-contents/thiefBuster)
+audio,se_item.ogg,CC BY 2.1 JP,"DWANGO Co., Ltd.",[泥棒バスター](https://github.com/akashic-contents/thiefBuster)

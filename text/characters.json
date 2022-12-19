@@ -1,0 +1,188 @@
+{
+	"bossSkyDaemon": {
+		"assetId": "boss1",
+		"name": "空の無花果",
+		"type": "boss",
+		"status": {
+			"hp": 5000,
+			"attack": 20,
+			"defence": 0,
+			"speed": 20,
+			"critical": 1
+		}
+	},
+	"bossMajyo": {
+		"assetId": "character9",
+		"name": "魔女",
+		"type": "enemy",
+		"status": {
+			"hp": 5000,
+			"attack": 20,
+			"defence": 10,
+			"speed": 50,
+			"critical": 0.1
+		}
+	},
+	"bossDog2": {
+		"assetId": "boss2",
+		"name": "ボス犬",
+		"type": "boss",
+		"status": {
+			"hp": 3000,
+			"attack": 30,
+			"defence": 10,
+			"speed": 20,
+			"critical": 1
+		}
+	},
+	"bossDog": {
+		"assetId": "boss2",
+		"name": "ボス犬",
+		"type": "boss",
+		"status": {
+			"hp": 500,
+			"attack": 20,
+			"defence": 10,
+			"speed": 12,
+			"critical": 1
+		}
+	},
+	"spaceDog": {
+		"assetId": "character7",
+		"name": "Spaciea",
+		"status": {
+			"type": "follower",
+			"hp": 80,
+			"attack": 20,
+			"defence": 10,
+			"speed": 27,
+			"critical": 0.1
+		},
+		"weaponIds": ["space", "inhale"]
+	},
+	"shiningDog": {
+		"assetId": "character6",
+		"name": "Billy",
+		"type": "follower",
+		"status": {
+			"hp": 80,
+			"attack": 20,
+			"defence": 10,
+			"speed": 27,
+			"critical": 0.1
+		},
+		"weaponIds": ["thunder"]
+	},
+	"coldDog": {
+		"assetId": "character5",
+		"name": "SumSum",
+		"type": "follower",
+		"status": {
+			"hp": 80,
+			"attack": 20,
+			"defence": 10,
+			"speed": 27,
+			"critical": 0.1
+		},
+		"weaponIds": ["cold"]
+	},
+	"fireDog": {
+		"assetId": "character4",
+		"name": "Moelu",
+		"type": "follower",
+		"status": {
+			"hp": 80,
+			"attack": 20,
+			"defence": 10,
+			"speed": 27,
+			"critical": 0.1
+		},
+		"weaponIds": ["fire"]
+	},
+	"dog": {
+		"assetId": "character3",
+		"name": "Liliea",
+		"type": "follower",
+		"status": {
+			"hp": 100,
+			"attack": 10,
+			"defence": 10,
+			"speed": 27,
+			"critical": 0.1
+		},
+		"weaponIds": ["shot"]
+	},
+	"enemyWitch": {
+		"assetId": "character2",
+		"name": "土人形・魔女",
+		"type": "enemy",
+		"status": {
+			"hp": 100,
+			"attack": 20,
+			"defence": 10,
+			"speed": 18,
+			"critical": 0
+		}
+	},
+	"enemyFighter2": {
+		"assetId": "character1",
+		"name": "土人形・兵士",
+		"type": "enemy",
+		"status": {
+			"hp": 1200,
+			"attack": 40,
+			"defence": 1,
+			"speed": 15,
+			"critical": 0.1
+		}
+	},
+	"enemyFighter": {
+		"assetId": "character1",
+		"name": "土人形・兵士",
+		"type": "enemy",
+		"status": {
+			"hp": 5,
+			"attack": 10,
+			"defence": 1,
+			"speed": 12,
+			"critical": 0
+		}
+	},
+	"enemyBee": {
+		"assetId": "character12",
+		"name": "ハチらしきもの",
+		"type": "enemy",
+		"status": {
+			"hp": 10,
+			"attack": 10,
+			"defence": 0,
+			"speed": 20,
+			"critical": 0.1
+		}
+	},
+	"enemyDog": {
+		"assetId": "character8",
+		"name": "襲い来る犬",
+		"type": "follower",
+		"status": {
+			"hp": 40,
+			"attack": 15,
+			"defence": 1,
+			"speed": 14,
+			"critical": 0.1
+		}
+	},
+	"hime": {
+		"assetId": "character10",
+		"name": "Hime",
+		"type": "follower",
+		"status": {
+			"hp": 100,
+			"attack": 15,
+			"defence": 0,
+			"speed": 27,
+			"critical": 0.3
+		},
+		"weaponIds": ["sword"]
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"stage1_single": {
+		"scriptAssetId": "FieldEntity",
+		"timeLimit": 10,
+		"startPosition": {
+			"x": 1256,
+			"y": 1576
+		},
+		"emenies": [
+			{
+				"id": "enemyFighter",
+				"time": 2,
+				"relativeOffset": { "x": -300, "y": 0 },
+				"count": 1
+			}
+		],
+		"items": [
+			{
+				"id": "speedup",
+				"time": 0,
+				"relativeOffset": { "x": 10, "y": 10 },
+				"count": 1
+			}
+		],
+		"events": [
+			{
+				"id": "debug",
+				"time": 0
+			}
+		]
+	},
+	"stage1_ranking": {
+		"scriptAssetId": "FieldEntity",
+		"totalLimit": 10,
+		"startPosition": {
+			"x": 1256,
+			"y": 1576
+		},
+		"emenies": [
+			{
+				"id": "enemyFighter",
+				"time": 2,
+				"relativeOffset": { "x": -300, "y": 0 },
+				"count": 1
+			}
+		],
+		"items": [
+			{
+				"id": "speedup",
+				"time": 0,
+				"relativeOffset": { "x": 10, "y": 10 },
+				"count": 1
+			}
+		],
+		"events": [
+			{
+				"id": "debug",
+				"time": 0
+			}
+		]
+	}
+}

@@ -1,0 +1,756 @@
+{
+	"width": 640,
+	"height": 480,
+	"fps": 30,
+	"main": "./script/_bootstrap.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"FieldEntity": {
+			"type": "script",
+			"path": "script/entities/FieldEntity.js",
+			"global": true
+		},
+		"GameFieldScene": {
+			"type": "script",
+			"path": "script/scene/GameFieldScene.js",
+			"global": true
+		},
+		"config": {
+			"type": "script",
+			"path": "script/config.js",
+			"global": true
+		},
+		"ButtonEntity": {
+			"type": "script",
+			"path": "script/entities/ButtonEntity.js",
+			"global": true
+		},
+		"CharacterEntity": {
+			"type": "script",
+			"path": "script/entities/CharacterEntity.js",
+			"global": true
+		},
+		"ItemEntity": {
+			"type": "script",
+			"path": "script/entities/ItemEntity.js",
+			"global": true
+		},
+		"PlayableCharacterEntity": {
+			"type": "script",
+			"path": "script/entities/PlayableCharacterEntity.js",
+			"global": true
+		},
+		"Character": {
+			"type": "script",
+			"path": "script/types/Character.js",
+			"global": true
+		},
+		"Direction": {
+			"type": "script",
+			"path": "script/types/Direction.js",
+			"global": true
+		},
+		"Item": {
+			"type": "script",
+			"path": "script/types/Item.js",
+			"global": true
+		},
+		"Stage": {
+			"type": "script",
+			"path": "script/types/Stage.js",
+			"global": true
+		},
+		"Weapon": {
+			"type": "script",
+			"path": "script/types/Weapon.js",
+			"global": true
+		},
+		"characters": {
+			"type": "text",
+			"path": "text/characters.json",
+			"global": true
+		},
+		"field_001": {
+			"type": "text",
+			"path": "text/field_001.json",
+			"global": true
+		},
+		"items": {
+			"type": "text",
+			"path": "text/items.json",
+			"global": true
+		},
+		"stages": {
+			"type": "text",
+			"path": "text/stages.json",
+			"global": true
+		},
+		"weapons": {
+			"type": "text",
+			"path": "text/weapons.json",
+			"global": true
+		},
+		"parameterObject": {
+			"type": "script",
+			"path": "script/parameterObject.js",
+			"global": true
+		},
+		"GameResultScene": {
+			"type": "script",
+			"path": "script/scene/GameResultScene.js",
+			"global": true
+		},
+		"_bootstrap": {
+			"type": "script",
+			"path": "script/_bootstrap.js",
+			"global": true
+		},
+		"ui_common": {
+			"type": "image",
+			"path": "image/ui_common.png",
+			"width": 1024,
+			"height": 578,
+			"global": true
+		},
+		"glyph28": {
+			"type": "text",
+			"path": "text/glyph28.json",
+			"global": true
+		},
+		"glyph72": {
+			"type": "text",
+			"path": "text/glyph72.json",
+			"global": true
+		},
+		"ScoreBoardEntity": {
+			"type": "script",
+			"path": "script/entities/ScoreBoardEntity.js",
+			"global": true
+		},
+		"TimeEntity": {
+			"type": "script",
+			"path": "script/entities/TimeEntity.js",
+			"global": true
+		},
+		"scoreup1": {
+			"type": "image",
+			"path": "image/scoreup1.png",
+			"width": 32,
+			"height": 32
+		},
+		"character1": {
+			"type": "image",
+			"path": "image/character1.png",
+			"width": 96,
+			"height": 128
+		},
+		"character2": {
+			"type": "image",
+			"path": "image/character2.png",
+			"width": 96,
+			"height": 128
+		},
+		"character3": {
+			"type": "image",
+			"path": "image/character3.png",
+			"width": 96,
+			"height": 128
+		},
+		"se_damage": {
+			"type": "audio",
+			"path": "audio/se_damage",
+			"systemId": "sound",
+			"duration": 112
+		},
+		"se_item": {
+			"type": "audio",
+			"path": "audio/se_item",
+			"systemId": "sound",
+			"duration": 133
+		},
+		"scoreup2": {
+			"type": "image",
+			"path": "image/scoreup2.png",
+			"width": 32,
+			"height": 32
+		},
+		"scoreup3": {
+			"type": "image",
+			"path": "image/scoreup3.png",
+			"width": 32,
+			"height": 32
+		},
+		"scoreup4": {
+			"type": "image",
+			"path": "image/scoreup4.png",
+			"width": 32,
+			"height": 32
+		},
+		"ShotWeaponEntity": {
+			"type": "script",
+			"path": "script/entities/weapons/ShotWeaponEntity.js",
+			"global": true
+		},
+		"WeaponEntity": {
+			"type": "script",
+			"path": "script/entities/weapons/WeaponEntity.js",
+			"global": true
+		},
+		"dataTable": {
+			"type": "script",
+			"path": "script/global/dataTable.js",
+			"global": true
+		},
+		"font": {
+			"type": "script",
+			"path": "script/global/font.js",
+			"global": true
+		},
+		"sprite": {
+			"type": "script",
+			"path": "script/global/sprite.js",
+			"global": true
+		},
+		"weapon": {
+			"type": "script",
+			"path": "script/global/weapon.js",
+			"global": true
+		},
+		"calculate": {
+			"type": "script",
+			"path": "script/util/calculate.js",
+			"global": true
+		},
+		"shot": {
+			"type": "image",
+			"path": "image/shot.png",
+			"width": 16,
+			"height": 16
+		},
+		"shotup": {
+			"type": "image",
+			"path": "image/shotup.png",
+			"width": 96,
+			"height": 32
+		},
+		"field1a": {
+			"type": "image",
+			"path": "image/field1a.png",
+			"width": 2560,
+			"height": 2560
+		},
+		"field1b": {
+			"type": "image",
+			"path": "image/field1b.png",
+			"width": 2560,
+			"height": 2560
+		},
+		"field1c": {
+			"type": "image",
+			"path": "image/field1c.png",
+			"width": 2560,
+			"height": 2560
+		},
+		"tile1": {
+			"type": "image",
+			"path": "image/tile1.png",
+			"width": 512,
+			"height": 512
+		},
+		"recovery1": {
+			"type": "image",
+			"path": "image/recovery1.png",
+			"width": 96,
+			"height": 32
+		},
+		"field_1": {
+			"type": "text",
+			"path": "text/field_1.json",
+			"global": true
+		},
+		"bomb1": {
+			"type": "image",
+			"path": "image/bomb1.png",
+			"width": 160,
+			"height": 32
+		},
+		"bomb2": {
+			"type": "image",
+			"path": "image/bomb2.png",
+			"width": 160,
+			"height": 32
+		},
+		"character4": {
+			"type": "image",
+			"path": "image/character4.png",
+			"width": 96,
+			"height": 128
+		},
+		"character5": {
+			"type": "image",
+			"path": "image/character5.png",
+			"width": 96,
+			"height": 128
+		},
+		"character6": {
+			"type": "image",
+			"path": "image/character6.png",
+			"width": 96,
+			"height": 128
+		},
+		"FollowerEntity": {
+			"type": "script",
+			"path": "script/entities/FollowerEntity.js",
+			"global": true
+		},
+		"bg1": {
+			"type": "image",
+			"path": "image/bg1.png",
+			"width": 640,
+			"height": 480
+		},
+		"bg2": {
+			"type": "image",
+			"path": "image/bg2.png",
+			"width": 640,
+			"height": 480
+		},
+		"bg3": {
+			"type": "image",
+			"path": "image/bg3.png",
+			"width": 640,
+			"height": 480
+		},
+		"boss1": {
+			"type": "image",
+			"path": "image/boss1.png",
+			"width": 512,
+			"height": 128
+		},
+		"boss2": {
+			"type": "image",
+			"path": "image/boss2.png",
+			"width": 512,
+			"height": 128
+		},
+		"character7": {
+			"type": "image",
+			"path": "image/character7.png",
+			"width": 96,
+			"height": 128
+		},
+		"d_01": {
+			"type": "image",
+			"path": "image/d_01.png",
+			"width": 512,
+			"height": 96
+		},
+		"d_02": {
+			"type": "image",
+			"path": "image/d_02.png",
+			"width": 512,
+			"height": 96
+		},
+		"field2a": {
+			"type": "image",
+			"path": "image/field2a.png",
+			"width": 1024,
+			"height": 480
+		},
+		"field2b": {
+			"type": "image",
+			"path": "image/field2b.png",
+			"width": 2880,
+			"height": 640
+		},
+		"field2c": {
+			"type": "image",
+			"path": "image/field2c.png",
+			"width": 2880,
+			"height": 640
+		},
+		"BossEntity": {
+			"type": "script",
+			"path": "script/entities/BossEntity.js",
+			"global": true
+		},
+		"boss2e": {
+			"type": "image",
+			"path": "image/boss2e.png",
+			"width": 512,
+			"height": 128
+		},
+		"character8": {
+			"type": "image",
+			"path": "image/character8.png",
+			"width": 96,
+			"height": 128
+		},
+		"shadow_character": {
+			"type": "image",
+			"path": "image/shadow_character.png",
+			"width": 32,
+			"height": 32
+		},
+		"BeamWeaponEntity": {
+			"type": "script",
+			"path": "script/entities/weapons/BeamWeaponEntity.js",
+			"global": true
+		},
+		"effect_beam": {
+			"type": "image",
+			"path": "image/effect_beam.png",
+			"width": 2048,
+			"height": 384
+		},
+		"effect_fire": {
+			"type": "image",
+			"path": "image/effect_fire.png",
+			"width": 336,
+			"height": 144
+		},
+		"effect_thunder": {
+			"type": "image",
+			"path": "image/effect_thunder.png",
+			"width": 640,
+			"height": 1236
+		},
+		"FireWeaponEntity": {
+			"type": "script",
+			"path": "script/entities/weapons/FireWeaponEntity.js",
+			"global": true
+		},
+		"ThunderWeaponEntity": {
+			"type": "script",
+			"path": "script/entities/weapons/ThunderWeaponEntity.js",
+			"global": true
+		},
+		"ColdWeaponEntity": {
+			"type": "script",
+			"path": "script/entities/weapons/ColdWeaponEntity.js",
+			"global": true
+		},
+		"EventEntity": {
+			"type": "script",
+			"path": "script/entities/events/EventEntity.js",
+			"global": true
+		},
+		"FollowerFallingEventEntity": {
+			"type": "script",
+			"path": "script/entities/events/FollowerFallingEventEntity.js",
+			"global": true
+		},
+		"MajyoEventEntity": {
+			"type": "script",
+			"path": "script/entities/events/MajyoEventEntity.js",
+			"global": true
+		},
+		"OpeningEventEntity": {
+			"type": "script",
+			"path": "script/entities/events/OpeningEventEntity.js",
+			"global": true
+		},
+		"Stage1FieldEntity": {
+			"type": "script",
+			"path": "script/entities/stages/Stage1FieldEntity.js",
+			"global": true
+		},
+		"event": {
+			"type": "script",
+			"path": "script/global/event.js",
+			"global": true
+		},
+		"Event": {
+			"type": "script",
+			"path": "script/types/Event.js",
+			"global": true
+		},
+		"character10": {
+			"type": "image",
+			"path": "image/character10.png",
+			"width": 96,
+			"height": 128
+		},
+		"character11": {
+			"type": "image",
+			"path": "image/character11.png",
+			"width": 96,
+			"height": 128
+		},
+		"character12": {
+			"type": "image",
+			"path": "image/character12.png",
+			"width": 96,
+			"height": 128
+		},
+		"character13": {
+			"type": "image",
+			"path": "image/character13.png",
+			"width": 96,
+			"height": 128
+		},
+		"character9": {
+			"type": "image",
+			"path": "image/character9.png",
+			"width": 96,
+			"height": 128
+		},
+		"face_hime": {
+			"type": "image",
+			"path": "image/face_hime.png",
+			"width": 320,
+			"height": 160
+		},
+		"item_fire": {
+			"type": "image",
+			"path": "image/item_fire.png",
+			"width": 48,
+			"height": 16
+		},
+		"item_thunder": {
+			"type": "image",
+			"path": "image/item_thunder.png",
+			"width": 48,
+			"height": 16
+		},
+		"face_majyo": {
+			"type": "image",
+			"path": "image/face_majyo.png",
+			"width": 320,
+			"height": 160
+		},
+		"effect_fancy": {
+			"type": "image",
+			"path": "image/effect_fancy.png",
+			"width": 384,
+			"height": 256
+		},
+		"effect_space": {
+			"type": "image",
+			"path": "image/effect_space.png",
+			"width": 384,
+			"height": 576
+		},
+		"star": {
+			"type": "image",
+			"path": "image/star.png",
+			"width": 32,
+			"height": 32
+		},
+		"SpaceWeaponEntity": {
+			"type": "script",
+			"path": "script/entities/weapons/SpaceWeaponEntity.js",
+			"global": true
+		},
+		"InhaleWeaponEntity": {
+			"type": "script",
+			"path": "script/entities/weapons/InhaleWeaponEntity.js",
+			"global": true
+		},
+		"face_liliea": {
+			"type": "image",
+			"path": "image/face_liliea.png",
+			"width": 320,
+			"height": 160
+		},
+		"skip": {
+			"type": "image",
+			"path": "image/skip.png",
+			"width": 64,
+			"height": 64
+		},
+		"stages_debug": {
+			"type": "text",
+			"path": "text/stages_debug.json",
+			"global": true
+		},
+		"item_space": {
+			"type": "image",
+			"path": "image/item_space.png",
+			"width": 48,
+			"height": 16
+		},
+		"dropItems": {
+			"type": "text",
+			"path": "text/dropItems.json",
+			"global": true
+		},
+		"effect_cold": {
+			"type": "image",
+			"path": "image/effect_cold.png",
+			"width": 32,
+			"height": 32
+		},
+		"item_cold": {
+			"type": "image",
+			"path": "image/item_cold.png",
+			"width": 48,
+			"height": 16
+		},
+		"StatusWindowEntity": {
+			"type": "script",
+			"path": "script/entities/StatusWindowEntity.js",
+			"global": true
+		},
+		"levelup": {
+			"type": "image",
+			"path": "image/levelup.png",
+			"width": 128,
+			"height": 32
+		},
+		"item_follower_cold": {
+			"type": "image",
+			"path": "image/item_follower_cold.png",
+			"width": 96,
+			"height": 32
+		},
+		"item_follower_fire": {
+			"type": "image",
+			"path": "image/item_follower_fire.png",
+			"width": 96,
+			"height": 32
+		},
+		"item_follower_space": {
+			"type": "image",
+			"path": "image/item_follower_space.png",
+			"width": 96,
+			"height": 32
+		},
+		"item_follower_thunder": {
+			"type": "image",
+			"path": "image/item_follower_thunder.png",
+			"width": 96,
+			"height": 32
+		},
+		"DebugEventEntity": {
+			"type": "script",
+			"path": "script/entities/events/DebugEventEntity.js",
+			"global": true
+		},
+		"emotions": {
+			"type": "image",
+			"path": "image/emotions.png",
+			"width": 64,
+			"height": 96
+		},
+		"effect_sword": {
+			"type": "image",
+			"path": "image/effect_sword.png",
+			"width": 768,
+			"height": 768
+		},
+		"SwordWeaponEntity": {
+			"type": "script",
+			"path": "script/entities/weapons/SwordWeaponEntity.js",
+			"global": true
+		},
+		"DeadEventEntity": {
+			"type": "script",
+			"path": "script/entities/events/DeadEventEntity.js",
+			"global": true
+		},
+		"stages_ranking": {
+			"type": "text",
+			"path": "text/stages_ranking.json",
+			"global": true
+		},
+		"stages_single": {
+			"type": "text",
+			"path": "text/stages_single.json",
+			"global": true
+		},
+		"EndingEventEntity": {
+			"type": "script",
+			"path": "script/entities/events/EndingEventEntity.js",
+			"global": true
+		},
+		"SimplifyFollowerFallingEventEntity": {
+			"type": "script",
+			"path": "script/entities/events/SimplifyFollowerFallingEventEntity.js",
+			"global": true
+		},
+		"Score": {
+			"type": "script",
+			"path": "script/types/Score.js",
+			"global": true
+		},
+		"hint": {
+			"type": "image",
+			"path": "image/hint.png",
+			"width": 640,
+			"height": 48
+		},
+		"result_label_exp": {
+			"type": "image",
+			"path": "image/result_label_exp.png",
+			"width": 100,
+			"height": 80
+		},
+		"result_label_followers": {
+			"type": "image",
+			"path": "image/result_label_followers.png",
+			"width": 224,
+			"height": 80
+		},
+		"result_label_nodamage": {
+			"type": "image",
+			"path": "image/result_label_nodamage.png",
+			"width": 250,
+			"height": 80
+		},
+		"bg_result_majyo": {
+			"type": "image",
+			"path": "image/bg_result_majyo.png",
+			"width": 640,
+			"height": 480
+		},
+		"bg_result": {
+			"type": "image",
+			"path": "image/bg_result.png",
+			"width": 640,
+			"height": 480
+		}
+	},
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-tile": "node_modules/@akashic-extension/akashic-tile/lib/index.js",
+		"@akashic-extension/akashic-label": "node_modules/@akashic-extension/akashic-label/lib/index.js",
+		"@akashic-extension/akashic-timeline": "node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"niconico": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 200
+			}
+		},
+		"nicolive": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 200
+			}
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-label/lib/DefaultRubyParser.js",
+		"node_modules/@akashic-extension/akashic-label/lib/FragmentDrawInfo.js",
+		"node_modules/@akashic-extension/akashic-label/lib/Label.js",
+		"node_modules/@akashic-extension/akashic-label/lib/RubyParser.js",
+		"node_modules/@akashic-extension/akashic-label/lib/index.js",
+		"node_modules/@akashic-extension/akashic-tile/lib/Tile.js",
+		"node_modules/@akashic-extension/akashic-tile/lib/index.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/ActionType.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Easing.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Timeline.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Tween.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	]
+}
