@@ -5,7 +5,7 @@
 ![demo2](docs/liliea_demo2.gif)
 ![title](docs/title.png)
 
-スマートフォンや・PC ブラウザで遊ぶゲームです。
+スマートフォンや　PC ブラウザで遊ぶゲームです。
 ゲームエンジン [Akashic Engine](https://akashic-games.github.io/) 製の [サンプルゲーム](https://github.com/akashic-contents/tilemap-survivors) 改造版です。
 
 [ニコ生ゲーム](https://site.live.nicovideo.jp/ichiba.html)で遊ぶことができます。
@@ -16,9 +16,10 @@
 
 ### 起動方法 
 以下のサービスで遊べます。
+
 * [ゲームアツマール](https://game.nicovideo.jp/atsumaru/)
   * シングルゲームとして遊ぶことができます。
-  * 「リリアと魔女」で検索してください。
+  * https://game.nicovideo.jp/atsumaru/games/gm28400
 * [ニコニコ生放送アプリ](https://site.live.nicovideo.jp/app/guide.html)
 * [ニコニコ生放送 PC サイト](https://site.live.nicovideo.jp/ichiba.html)
   * スコアを競うランキングゲームとして遊ぶことができます。
