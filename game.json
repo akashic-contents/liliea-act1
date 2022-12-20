@@ -713,6 +713,29 @@
 			"path": "image/bg_result.png",
 			"width": 640,
 			"height": 480
+		},
+		"nc133861": {
+			"type": "audio",
+			"path": "audio/nc133861",
+			"systemId": "music",
+			"duration": 198084
+		},
+		"nc150061": {
+			"type": "audio",
+			"path": "audio/nc150061",
+			"systemId": "music",
+			"duration": 129960
+		},
+		"MusicPlayer": {
+			"type": "script",
+			"path": "script/util/MusicPlayer.js",
+			"global": true
+		},
+		"nc107871": {
+			"type": "audio",
+			"path": "audio/nc107871",
+			"systemId": "sound",
+			"duration": 2303
 		}
 	},
 	"moduleMainScripts": {
