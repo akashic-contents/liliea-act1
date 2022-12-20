@@ -54,8 +54,10 @@ export class ScoreBoardEntity extends g.E {
 						const isAtsumaru = typeof window !== "undefined" && typeof (window as any).RPGAtsumaru !== "undefined";
 						if (isAtsumaru) {
 							const atsumaru = (window as any).RPGAtsumaru;
-							atsumaru.scoreboards.setRecord(1, this._totalScore);
-							atsumaru.scoreboards.display(1);
+							atsumaru.scoreboards
+								.setRecord(1, this._totalScore)
+								.then(() => atsumaru.scoreboards.display(1))
+								.reject((error: any) => console.warn);
 						}
 					} catch (error) {
 						console.error("RPGAtsumaru API error:", error);
