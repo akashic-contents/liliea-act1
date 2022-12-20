@@ -141,7 +141,7 @@ export class GameFieldScene extends g.Scene {
 		this.append(this._timeEntity);
 
 		this._enemySpawner = new Spawner({
-			events: this._stage.emenies,
+			events: this._stage.enemies,
 			spawnFunc: (id: string, offset: g.CommonOffset) => {
 				const enemy = characterDataTable.get(id);
 				const entity =

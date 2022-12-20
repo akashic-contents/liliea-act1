@@ -6,7 +6,7 @@
 			"x": 1256,
 			"y": 1576
 		},
-		"emenies": [
+		"enemies": [
 			{
 				"id": "enemyFighter",
 				"time": 10,
