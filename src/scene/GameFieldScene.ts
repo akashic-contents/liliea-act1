@@ -147,18 +147,18 @@ export class GameFieldScene extends g.Scene {
 				const entity =
 					enemy.type === "boss"
 						? new BossEntity({
-							scene: this,
-							src: this.asset.getImageById(enemy.assetId),
-							width: 128,
-							height: 128,
-							data: enemy
+								scene: this,
+								src: this.asset.getImageById(enemy.assetId),
+								width: 128,
+								height: 128,
+								data: enemy
 						  })
 						: new CharacterEntity({
-							scene: this,
-							src: this.asset.getImageById(enemy.assetId),
-							width: 32,
-							height: 32,
-							data: enemy
+								scene: this,
+								src: this.asset.getImageById(enemy.assetId),
+								width: 32,
+								height: 32,
+								data: enemy
 						  });
 				this._fieldEntity.registerEnemy(entity, offset);
 			}
