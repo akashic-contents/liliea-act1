@@ -19,6 +19,7 @@ export class ScoreBoardEntity extends g.E {
 	private _timeline: Timeline;
 	private _score: Score;
 	private _totalScore: number;
+	private _nowFinish: boolean = false;
 	private _boardSprite: g.Sprite;
 	private _hintSprite: g.Sprite;
 	private _boardBg: g.FilledRect;
@@ -35,6 +36,11 @@ export class ScoreBoardEntity extends g.E {
 	}
 
 	finish(): void {
+		if (this._nowFinish) {
+			return;
+		}
+		this._nowFinish = true;
+
 		this._timeline.completeAll();
 		if (this._hintSprite) {
 			this._timeline.create(this._hintSprite).wait(2000).fadeIn(3000, Easing.easeOutCubic).fadeOut(3000, Easing.easeInCubic);
