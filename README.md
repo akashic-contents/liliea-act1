@@ -104,6 +104,9 @@ $ npm start   # localhost:3000 で実行します。ブラウザで http://local
 |[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets)| 2022-11-30 | CC BY 2.1 JP| キャラクター画像　|
 |[泥棒バスター](https://github.com/akashic-contents/thiefBuster) | 2022-11-30 | CC BY 2.1 JP | スコア画像・SE |
 |[Ricty Diminished](https://rictyfonts.github.io/diminished) | 4.1.1 | SIL Open Font License (OFL) Version 1.1 | ラベル用フォント |
+|[爆破音　爆発音](https://commons.nicovideo.jp/material/nc107871) | 2022-12-20 | リンク先「利用条件の詳細」参照 | Sound |
+|[夏はsummer!!](https://commons.nicovideo.jp/material/nc133861) | 2022-12-20 | リンク先「利用条件の詳細」参照 | BGM |
+|[【日常系BGM】shuffle shuffle](https://commons.nicovideo.jp/material/nc150061) | 2022-12-20 | リンク先「利用条件の詳細」参照 | BGM |
 
 ## 利用ツール
 以下のツールを利用し素材を作成・加工しています。ありがとうございます。
