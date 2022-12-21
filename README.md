@@ -93,6 +93,9 @@ $ npm start   # localhost:3000 で実行します。ブラウザで http://local
 
 今後、Wiki などで解説記事を掲載する予定です。
 
+### 更新予定
+[issues](https://github.com/shunsuke-tanaka/liliea-act1/issues) で進行中。
+- [#6 フィールド上の宝箱の実装](https://github.com/shunsuke-tanaka/liliea-act1/issues/6)
 
 ## 利用素材
 詳細は [素材ファイル一覧](./docs/material.csv) をご覧ください。
