@@ -726,6 +726,12 @@
 			"path": "image/item_chest.png",
 			"width": 96,
 			"height": 32
+		},
+		"bg4": {
+			"type": "image",
+			"path": "image/bg4.png",
+			"width": 1024,
+			"height": 480
 		}
 	},
 	"moduleMainScripts": {
