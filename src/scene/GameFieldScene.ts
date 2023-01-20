@@ -12,6 +12,7 @@ import { characterDataTable, itemDataTable, stageDataTable } from "../global/dat
 import { createEventEntity } from "../global/event";
 import { createUiSprite } from "../global/sprite";
 import { Score } from "../types/Score";
+import { MusicPlayer } from "../util/MusicPlayer";
 import { SpawnTiming, Stage } from "../types/Stage";
 
 // !! For Debug:
@@ -26,6 +27,7 @@ export interface GameFieldSceneParameterObject extends g.SceneParameterObject {
 }
 
 type SceneStatus = "stopped" | "started";
+type KeyToAudioPlayer = { [key: string]: g.AudioPlayer };
 
 // ゲームシーン
 export class GameFieldScene extends g.Scene {
@@ -41,6 +43,7 @@ export class GameFieldScene extends g.Scene {
 	private _destinationOffset: g.CommonOffset | undefined;
 	private _statusWindow: StatusWindowEntity;
 	private _timeEntity: TimeEntity;
+	private _musicPlayer: MusicPlayer;
 	private _onFinish: ((score: Score) => void) | undefined;
 
 	constructor(param: GameFieldSceneParameterObject) {
@@ -100,6 +103,12 @@ export class GameFieldScene extends g.Scene {
 		this._status = "stopped";
 	}
 
+	setupAudio(): void {
+		this._musicPlayer = new MusicPlayer(this);
+		g.game.audio.sound.volume = 0.5;
+		g.game.audio.music.volume = 0.5;
+	}
+
 	private _initialize(param: GameFieldSceneParameterObject): void {
 		const playerEntity = this.createPlayerEntity(param);
 
@@ -147,18 +156,18 @@ export class GameFieldScene extends g.Scene {
 				const entity =
 					enemy.type === "boss"
 						? new BossEntity({
-							scene: this,
-							src: this.asset.getImageById(enemy.assetId),
-							width: 128,
-							height: 128,
-							data: enemy
+								scene: this,
+								src: this.asset.getImageById(enemy.assetId),
+								width: 128,
+								height: 128,
+								data: enemy
 						  })
 						: new CharacterEntity({
-							scene: this,
-							src: this.asset.getImageById(enemy.assetId),
-							width: 32,
-							height: 32,
-							data: enemy
+								scene: this,
+								src: this.asset.getImageById(enemy.assetId),
+								width: 32,
+								height: 32,
+								data: enemy
 						  });
 				this._fieldEntity.registerEnemy(entity, offset);
 			}
@@ -175,7 +184,7 @@ export class GameFieldScene extends g.Scene {
 						this.start();
 					}
 				};
-				const e = createEventEntity(this, id, this._fieldEntity, onFinished);
+				const e = createEventEntity(this, id, this._fieldEntity, this._musicPlayer, onFinished);
 				this._eventEntities.push(e);
 				if (e.shouldGameStopped()) {
 					// ゲーム進行停止:
@@ -218,6 +227,7 @@ export class GameFieldScene extends g.Scene {
 			}
 		});
 
+		// ユーザ操作ハンドラ登録:
 		this.onPointDownCapture.add(ev => {
 			console.log(ev);
 			if (this._status === "started") {
@@ -234,6 +244,9 @@ export class GameFieldScene extends g.Scene {
 			this._destinationOffset = undefined;
 		});
 		this.onUpdate.add(this._updateHandler, this);
+
+		// 音声初期化:
+		this.setupAudio();
 	}
 
 	private _updateHandler(): void {
@@ -242,7 +255,7 @@ export class GameFieldScene extends g.Scene {
 		}
 
 		if (this._fieldEntity.isPlayerDied()) {
-			const e = createEventEntity(this, "dead", this._fieldEntity, () => this.start());
+			const e = createEventEntity(this, "dead", this._fieldEntity, this._musicPlayer, () => this.start());
 			this.stop();
 			// ペナルティ: 戦闘不能演出中もタイマーは止めない
 			this._timeEntity.start();
@@ -251,6 +264,8 @@ export class GameFieldScene extends g.Scene {
 		}
 
 		if (this._timeEntity.isTimeout()) {
+			// 全ての音声再生を止めて次シーン遷移:
+			this._musicPlayer.stopAll();
 			this._showResult(createUiSprite(this, "timeUp"));
 		}
 

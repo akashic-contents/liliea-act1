@@ -74,11 +74,6 @@
 			"path": "text/characters.json",
 			"global": true
 		},
-		"field_001": {
-			"type": "text",
-			"path": "text/field_001.json",
-			"global": true
-		},
 		"items": {
 			"type": "text",
 			"path": "text/items.json",
@@ -267,11 +262,6 @@
 			"width": 96,
 			"height": 32
 		},
-		"field_1": {
-			"type": "text",
-			"path": "text/field_1.json",
-			"global": true
-		},
 		"bomb1": {
 			"type": "image",
 			"path": "image/bomb1.png",
@@ -358,20 +348,14 @@
 		"field2a": {
 			"type": "image",
 			"path": "image/field2a.png",
-			"width": 1024,
-			"height": 480
+			"width": 2880,
+			"height": 1920
 		},
 		"field2b": {
 			"type": "image",
 			"path": "image/field2b.png",
 			"width": 2880,
-			"height": 640
-		},
-		"field2c": {
-			"type": "image",
-			"path": "image/field2c.png",
-			"width": 2880,
-			"height": 640
+			"height": 1920
 		},
 		"BossEntity": {
 			"type": "script",
@@ -713,6 +697,46 @@
 			"path": "image/bg_result.png",
 			"width": 640,
 			"height": 480
+		},
+		"nc133861": {
+			"type": "audio",
+			"path": "audio/nc133861",
+			"systemId": "music",
+			"duration": 198084
+		},
+		"nc150061": {
+			"type": "audio",
+			"path": "audio/nc150061",
+			"systemId": "music",
+			"duration": 129960
+		},
+		"MusicPlayer": {
+			"type": "script",
+			"path": "script/util/MusicPlayer.js",
+			"global": true
+		},
+		"nc107871": {
+			"type": "audio",
+			"path": "audio/nc107871",
+			"systemId": "sound",
+			"duration": 2303
+		},
+		"item_chest": {
+			"type": "image",
+			"path": "image/item_chest.png",
+			"width": 96,
+			"height": 32
+		},
+		"bg4": {
+			"type": "image",
+			"path": "image/bg4.png",
+			"width": 1024,
+			"height": 480
+		},
+		"storage": {
+			"type": "script",
+			"path": "script/util/storage.js",
+			"global": true
 		}
 	},
 	"moduleMainScripts": {
