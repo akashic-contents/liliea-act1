@@ -732,6 +732,11 @@
 			"path": "image/bg4.png",
 			"width": 1024,
 			"height": 480
+		},
+		"storage": {
+			"type": "script",
+			"path": "script/util/storage.js",
+			"global": true
 		}
 	},
 	"moduleMainScripts": {
