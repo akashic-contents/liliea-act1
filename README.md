@@ -17,9 +17,6 @@
 ### 起動方法 
 以下のサービスで遊べます。
 
-* [ゲームアツマール](https://game.nicovideo.jp/atsumaru/)
-  * シングルゲームとして遊ぶことができます。
-  * https://game.nicovideo.jp/atsumaru/games/gm28400
 * [ニコニコ生放送アプリ](https://site.live.nicovideo.jp/app/guide.html)
 * [ニコニコ生放送 PC サイト](https://site.live.nicovideo.jp/ichiba.html)
   * スコアを競うランキングゲームとして遊ぶことができます。
