@@ -294,6 +294,9 @@ export class OpeningEventEntity extends EventEntity {
 		// のんびりしてる2名:
 		this._timeline
 			.create(this._fullFilled)
+			.call(() => {
+				this.musicPlayer.play("nc150061");
+			})
 			.fadeOut(2000, Easing.easeInOutCubic)
 			.con()
 			.wait(1000)
@@ -364,6 +367,10 @@ export class OpeningEventEntity extends EventEntity {
 			.create(this._liliea)
 			.wait(200)
 			.call(() => {
+				// 爆発:
+				this.musicPlayer.play("nc107871");
+				this.musicPlayer.changeVolume("nc150061", 0.1);
+
 				rotationLoop = this._timeline.create(this._liliea, { loop: true }).every((e: number, i: number) => {
 					this._liliea.angle += 30;
 					this._liliea.x += 12;
@@ -495,6 +502,9 @@ export class OpeningEventEntity extends EventEntity {
 
 		this.scene.setTimeout(() => {
 			this.onFinished();
+
+			this.musicPlayer.stop("nc150061");
+			this.musicPlayer.play("nc133861").changeVolume(0.5);
 
 			// フィールドのキャラクターを表示:
 			this.showFieldCharacter();
