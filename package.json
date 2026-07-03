@@ -45,5 +45,12 @@
     "@akashic-extension/akashic-label": "^3.0.1",
     "@akashic-extension/akashic-tile": "^3.0.1",
     "@akashic-extension/akashic-timeline": "^3.2.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": ">=11.11.0",
+      "onFail": "error"
+    }
   }
 }
