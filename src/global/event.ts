@@ -6,21 +6,28 @@ import { MajyoEventEntity } from "../entities/events/MajyoEventEntity";
 import { OpeningEventEntity } from "../entities/events/OpeningEventEntity";
 import { SimplifyFollowerFallingEventEntity } from "../entities/events/SimplifyFollowerFallingEventEntity";
 import { FieldEntity } from "../entities/FieldEntity";
+import { MusicPlayer } from "../util/MusicPlayer";
 
-export function createEventEntity(scene: g.Scene, id: string, field: FieldEntity, onFinished: (e: EventEntity) => void): EventEntity {
+export function createEventEntity(
+	scene: g.Scene,
+	id: string,
+	field: FieldEntity,
+	musicPlayer: MusicPlayer,
+	onFinished: (e: EventEntity) => void
+): EventEntity {
 	switch (id) {
 		case "opening":
-			return new OpeningEventEntity({ scene, field, onFinished });
+			return new OpeningEventEntity({ scene, field, musicPlayer, onFinished });
 		case "fallingFollower":
-			return new FollowerFallingEventEntity({ scene, field, onFinished });
+			return new FollowerFallingEventEntity({ scene, field, musicPlayer, onFinished });
 		case "simplifyFallingFollower":
-			return new SimplifyFollowerFallingEventEntity({ scene, field, onFinished });
+			return new SimplifyFollowerFallingEventEntity({ scene, field, musicPlayer, onFinished });
 		case "majyo":
-			return new MajyoEventEntity({ scene, field, onFinished });
+			return new MajyoEventEntity({ scene, field, musicPlayer, onFinished });
 		case "dead":
-			return new DeadEventEntity({ scene, field, onFinished });
+			return new DeadEventEntity({ scene, field, musicPlayer, onFinished });
 		case "debug":
-			return new DebugEventEntity({ scene, field, onFinished });
+			return new DebugEventEntity({ scene, field, musicPlayer, onFinished });
 		default:
 			throw new Error(`${id} is not found.`);
 	}

@@ -1,7 +1,9 @@
 import { FieldEntity } from "../FieldEntity";
+import { MusicPlayer } from "../../util/MusicPlayer";
 
 export interface EventEntityParameterObject extends g.EParameterObject {
 	field: FieldEntity;
+	musicPlayer: MusicPlayer;
 	onFinished: (entity: EventEntity) => void;
 }
 
@@ -10,11 +12,13 @@ export type EventStatus = "started" | "stopped";
 export class EventEntity extends g.E {
 	private _status: EventStatus = "started";
 	private _field: FieldEntity;
+	private _musicPlayer: MusicPlayer;
 	private _onFinished: (entity: EventEntity) => void;
 
 	constructor(param: EventEntityParameterObject) {
 		super(param);
 		this._field = param.field;
+		this._musicPlayer = param.musicPlayer;
 		this._onFinished = param.onFinished;
 	}
 
@@ -24,6 +28,10 @@ export class EventEntity extends g.E {
 
 	get field(): FieldEntity {
 		return this._field;
+	}
+
+	get musicPlayer(): MusicPlayer {
+		return this._musicPlayer;
 	}
 
 	start(): void {

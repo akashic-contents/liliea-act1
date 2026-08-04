@@ -116,6 +116,21 @@ export class ScoreBoardEntity extends g.E {
 			})
 			.wait(2000)
 			.call(() => {
+				try {
+					// コンテンツが動作している環境がゲームアツマール上かどうか
+					const isAtsumaru = typeof window !== "undefined" && typeof (window as any).RPGAtsumaru !== "undefined";
+					if (isAtsumaru) {
+						const atsumaru = (window as any).RPGAtsumaru;
+						atsumaru.scoreboards
+							.setRecord(1, this._totalScore)
+							.then(() => atsumaru.scoreboards.display(1))
+							.reject((error: any) => console.warn);
+					}
+				} catch (error) {
+					console.error("RPGAtsumaru API error:", error);
+				}
+			})
+			.call(() => {
 				// 以降スキップ受付:
 				this._boardSprite.onPointDown.add(this.finish, this);
 			});

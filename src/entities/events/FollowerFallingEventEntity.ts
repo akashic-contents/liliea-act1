@@ -138,6 +138,9 @@ export class FollowerFallingEventEntity extends EventEntity {
 			.con()
 			.every(() => (this._fallingStarEffect.angle += 45), 1000)
 			.call(() => {
+				// 爆発:
+				this.musicPlayer.play("nc107871");
+
 				this._bombEffect = new g.FrameSprite({
 					scene: this.scene,
 					src: this.scene.asset.getImageById("effect_fancy"),

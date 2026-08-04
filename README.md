@@ -5,7 +5,7 @@
 ![demo2](docs/liliea_demo2.gif)
 ![title](docs/title.png)
 
-スマートフォンや・PC ブラウザで遊ぶゲームです。
+スマートフォンや　PC ブラウザで遊ぶゲームです。
 ゲームエンジン [Akashic Engine](https://akashic-games.github.io/) 製の [サンプルゲーム](https://github.com/akashic-contents/tilemap-survivors) 改造版です。
 
 [ニコ生ゲーム](https://site.live.nicovideo.jp/ichiba.html)で遊ぶことができます。
@@ -16,9 +16,7 @@
 
 ### 起動方法 
 以下のサービスで遊べます。
-* [ゲームアツマール](https://game.nicovideo.jp/atsumaru/)
-  * シングルゲームとして遊ぶことができます。
-  * 「リリアと魔女」で検索してください。
+
 * [ニコニコ生放送アプリ](https://site.live.nicovideo.jp/app/guide.html)
 * [ニコニコ生放送 PC サイト](https://site.live.nicovideo.jp/ichiba.html)
   * スコアを競うランキングゲームとして遊ぶことができます。
@@ -92,6 +90,9 @@ $ npm start   # localhost:3000 で実行します。ブラウザで http://local
 
 今後、Wiki などで解説記事を掲載する予定です。
 
+### 更新予定
+[issues](https://github.com/shunsuke-tanaka/liliea-act1/issues) で進行中。
+- [#6 フィールド上の宝箱の実装](https://github.com/shunsuke-tanaka/liliea-act1/issues/6)
 
 ## 利用素材
 詳細は [素材ファイル一覧](./docs/material.csv) をご覧ください。
@@ -103,6 +104,9 @@ $ npm start   # localhost:3000 で実行します。ブラウザで http://local
 |[shinonomekazan/akashic-assets](https://github.com/shinonomekazan/akashic-assets)| 2022-11-30 | CC BY 2.1 JP| キャラクター画像　|
 |[泥棒バスター](https://github.com/akashic-contents/thiefBuster) | 2022-11-30 | CC BY 2.1 JP | スコア画像・SE |
 |[Ricty Diminished](https://rictyfonts.github.io/diminished) | 4.1.1 | SIL Open Font License (OFL) Version 1.1 | ラベル用フォント |
+|[爆破音　爆発音](https://commons.nicovideo.jp/material/nc107871) | 2022-12-20 | リンク先「利用条件の詳細」参照 | Sound |
+|[夏はsummer!!](https://commons.nicovideo.jp/material/nc133861) | 2022-12-20 | リンク先「利用条件の詳細」参照 | BGM |
+|[【日常系BGM】shuffle shuffle](https://commons.nicovideo.jp/material/nc150061) | 2022-12-20 | リンク先「利用条件の詳細」参照 | BGM |
 
 ## 利用ツール
 以下のツールを利用し素材を作成・加工しています。ありがとうございます。
